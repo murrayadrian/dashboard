@@ -4,7 +4,7 @@ import { v } from "../../styles/variables";
 export const SSidebar = styled.div`
     width: ${v.sidebarWidth};
     background: ${({theme}) => theme.bg};
-    height: 100vh;
+    height: 100%;
     padding: ${v.lgSpacing};
     position: relative;
 `

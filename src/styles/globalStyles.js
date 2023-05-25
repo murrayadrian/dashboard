@@ -6,12 +6,17 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
-
-    body {
+    html, body {
+        background: #E5E5E5;
+    }
+     #root{
         background: ${({theme}) => theme.bg4};
         color: ${({theme}) => theme.text};
         font-family: 'Roboto', sans-serif;
         letter-spacing: .6px;
-        height: 100vh;
+        height: calc(100vh - 60px);
+        width: calc(100% - 120px);
+        margin:0 auto;
+        margin-top: 30px;
     }
 `

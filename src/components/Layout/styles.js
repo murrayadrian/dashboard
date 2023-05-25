@@ -3,7 +3,7 @@ import { v } from "../../styles/variables";
 
 export const SLayout = styled.div`
     display: flex;
-    height: 100vh;
+    height: 100%;
 `
 
 export const SContainer = styled.div`
@@ -11,6 +11,6 @@ export const SContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 100vh;
+    height: 100%;
     width: calc(100% - 300px);
 `

@@ -10,9 +10,9 @@ const SCard = styled.div`
     border-radius: 20px;
     font-size: 12px;
     line-height: 16px;
-    margin-right: 10px;
     height: 165px;
     width : 165px;
+    margin: 10px;
 `
 const Card = ({title, amount, currency, percent}) => {
   return (
