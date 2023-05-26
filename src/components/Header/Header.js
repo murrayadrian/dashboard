@@ -2,7 +2,7 @@ import React from 'react'
 import {AiOutlineSearch} from 'react-icons/ai'
 import { SHeader,SPlaceholder, SSearch, SSearchIcon,SUser } from './styles'
 import CircleImage from '../CircleImage/CircleImage'
-import userLogo from '../../assets/user.svg'
+import userLogo from '../../assets/user.jpg'
 import bellLogo from '../../assets/bell.svg'
 
 const Header = () => {
@@ -17,7 +17,7 @@ const Header = () => {
       </SSearch>
       <SUser>
         <CircleImage height="56px" width="56px" image={bellLogo} background='#FFFFFF'></CircleImage>
-        <CircleImage height="56px" width="56px" image={userLogo}></CircleImage>
+        <CircleImage height="56px" width="56px" image={userLogo} background='rgb(202, 234, 230)'></CircleImage>
       </SUser>
     </SHeader>
   )
