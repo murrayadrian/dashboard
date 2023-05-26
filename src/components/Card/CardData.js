@@ -15,6 +15,7 @@ const SImageWrapper = styled.div`
     position: relative;
     img{
         width: 100%;
+        padding: 12px 12px 12px 12px;
     }
 `
 const SButton = styled.button`
@@ -22,13 +23,14 @@ const SButton = styled.button`
 `
 const CenterButton = styled(SButton)`
     position: absolute;
-    top:90px;
-    left:110px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 `
 const TimeButton = styled(SButton)`
     position: absolute;
-    left:0px;
-    bottom:0px;
+    left:24px;
+    bottom:24px;
 `
 const STitleWrapper = styled.div`
     display: flex;

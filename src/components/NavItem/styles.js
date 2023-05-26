@@ -10,8 +10,12 @@ export const SNavItem = styled.div`
     color: #7A797D;
     margin-bottom: 25px;
 
+    img {
+        width: 14px;
+        height: 14px;
+    }
     a {
-    text-decoration: unset;
-    color: #7A797D;
+        text-decoration: unset;
+        color: #7A797D;
     }
 `
