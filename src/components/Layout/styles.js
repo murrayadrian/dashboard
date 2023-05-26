@@ -13,4 +13,5 @@ export const SContainer = styled.div`
     justify-content: flex-start;
     height: 100%;
     width: calc(100% - 300px);
+    background-color: rgb(202, 234, 230);
 `

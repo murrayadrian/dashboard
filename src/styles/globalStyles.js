@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
         color: ${({theme}) => theme.text};
         font-family: 'Roboto', sans-serif;
         letter-spacing: .6px;
-        height: calc(100vh - 60px);
+        /* height: calc(100vh - 60px); */
         width: calc(100% - 120px);
         margin:0 auto;
         margin-top: 30px;

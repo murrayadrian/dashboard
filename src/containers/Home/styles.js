@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { v } from "../../styles/variables";
 
 export const SMain = styled.main`
     display: flex;
@@ -18,6 +18,7 @@ export const SMenuWrapper = styled.div`
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 20px;
+    margin-top: ${v.lgSpacing}
 `
 export const STitle = styled.div`
     font-size: 20px;
@@ -39,6 +40,12 @@ export const SRight = styled.div`
     width: 400px;
     border:1px solid red;
 `
+export const SContainer = styled.div`
+    background-color: #FFFFFF;
+    padding-left: ${v.mdSpacing};
+    padding-right: ${v.mdSpacing};
+    margin-top: ${v.lgSpacing};
+`
 export const SCardList =styled.div`
     width: 370px;
     display: flex;
@@ -49,4 +56,10 @@ export const SCardItems= styled.div`
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+`
+
+export const SUserList = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `
