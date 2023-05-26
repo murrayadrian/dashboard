@@ -13,7 +13,7 @@ export const SSearch = styled.div`
         font-size: 16px;
         width: 461px;
         height: 56px;
-        border-radius: ${v.lgSpacing};
+        border-radius: 35px;
         border: none;
     }
     position:relative;

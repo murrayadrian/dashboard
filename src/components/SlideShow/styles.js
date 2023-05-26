@@ -13,17 +13,25 @@ export const SSlideShow = styled.div`
 `
 export const Container = styled.div`
   position: absolute;
-  top: 100px;
-  left: 40px;
+  top: 77px;
+  right: 120px;
+  bottom: 77px;
+  left: 60px;
+  width: 536px;
+  height: 130px;
 `
 
 export const SContent = styled.div`
     font-size: 54px;
     font-weight: 700;
     color: #FFFFFF;
+    line-height: 65px;
+    letter-spacing: -0.02em;  
+    margin-bottom: 24px;
 `
 
 export const SBtnList = styled.div`
     display: flex;
     justify-content: flex-start;
+    gap: 10px;
 `
