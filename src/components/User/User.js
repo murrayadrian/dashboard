@@ -29,7 +29,7 @@ const User = ({id, width, height, image, fullname, username}) => {
             <div>{fullname}</div>
             <div>@{username}</div>
         </SInfo>
-        <Button>Follow</Button>
+        <Button w='77px' h='32px' bg='rgba(84, 41, 255, 0.1)' br='20px' pd='8px 14px'>Follow</Button>
     </SUser>
   )
 }

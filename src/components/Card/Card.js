@@ -26,7 +26,7 @@ const Card = ({title, amount, currency, percent}) => {
                 <span className="amount">+{amount}{currency}</span>
             </div>
         }
-        <Button percent={percent}>{percent}%</Button>
+        <Button percent={percent} w='115px' bd='#E9E9E9' br='12px'>{percent}%</Button>
     </SCard>
   )
 }

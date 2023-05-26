@@ -46,6 +46,7 @@ export const SContainer = styled.div`
     margin-top: ${v.lgSpacing};
     width: 100%;
     height: 478px;
+    border-radius: 16px;
 `
 export const SCardList =styled.div`
     width: 100%;

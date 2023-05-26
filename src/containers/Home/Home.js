@@ -22,10 +22,10 @@ const Home = () => {
           </SMenu>
         </SMenuWrapper>
         <SCardItems>
-          <CardData img={monkey} width='28px' height='28px'time='12:03:45'title='Ape In Love' likes='21.5k' avatar={avatar}username='@johnti60'amount={9.10}/>
-          <CardData img={monkey} width='28px' height='28px'time='12:03:45'title='Ape In Love' likes='21.5k' avatar={avatar}username='@johnti60'amount={9.10}/>
-          <CardData img={monkey} width='28px' height='28px'time='12:03:45'title='Ape In Love' likes='21.5k' avatar={avatar}username='@johnti60'amount={9.10}/>
-          <CardData img={monkey} width='28px' height='28px'time='12:03:45'title='Ape In Love' likes='21.5k' avatar={avatar}username='@johnti60'amount={9.10}/>
+          <CardData img={monkey} width='28px' height='28px'time='12:03:45'title='Ape In Love' likes='21.5k' avatar={avatar}username='johnti60'amount={9.10}/>
+          <CardData img={monkey} width='28px' height='28px'time='12:03:45'title='Ape In Love' likes='21.5k' avatar={avatar}username='johnti60'amount={9.10}/>
+          <CardData img={monkey} width='28px' height='28px'time='12:03:45'title='Ape In Love' likes='21.5k' avatar={avatar}username='johnti60'amount={9.10}/>
+          <CardData img={monkey} width='28px' height='28px'time='12:03:45'title='Ape In Love' likes='21.5k' avatar={avatar}username='johnti60'amount={9.10}/>
         </SCardItems>
       </SMiddle>
 
@@ -33,7 +33,7 @@ const Home = () => {
         <SCardList>
           <Card title="Revenue" amount={5.00} currency="eth" percent={12.3}></Card>
           <Card title="Spending" amount={2.00} currency="eth" percent={8.1}></Card>
-          <Card title="ROI" amount={14.02} currency="%" percent={5.1}></Card>
+          <Card title="ROI" amount={14.02} currency="%" percent={-5.1}></Card>
           <Card title="Estimated" amount={7.00} currency="eth" percent={3.2}></Card>
         </SCardList>
 
