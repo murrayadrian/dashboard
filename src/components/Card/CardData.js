@@ -6,12 +6,10 @@ const SCardData = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: calc(50% - 20px);
-    height: auto;
+    width: 348px;
+    height: 364px;
     margin-bottom: 20px;
     background-color: #FFFFFF;
-    background-clip: content-box;
-    margin-right: 10px;
 `
 const SImageWrapper = styled.div`
     position: relative;

@@ -7,11 +7,11 @@ export const SLayout = styled.div`
 `
 
 export const SContainer = styled.div`
-    padding: ${v.lgSpacing};
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 100%;
-    width: calc(100% - 300px);
+    width: 1164px;
     background-color: rgb(202, 234, 230);
 `

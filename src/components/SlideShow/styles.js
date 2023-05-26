@@ -7,10 +7,9 @@ export const SSlideShow = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-    width: calc(100% - 100px);
+    width: 100%;
     height: 354px;
     position: relative;
-    margin-top: 10px;
 `
 export const Container = styled.div`
   position: absolute;

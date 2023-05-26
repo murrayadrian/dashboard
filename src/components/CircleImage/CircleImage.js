@@ -5,7 +5,7 @@ const SCircle = styled.div`
     height: ${props => props.height || '44px'};
     border-radius: 50%;
     position: relative;
-    margin-right:${props => props.margin || '40px'};;
+    margin-right:${props => props.margin || 'none'};;
     background : ${props => props.background || 'none'};
     img {
         position: absolute;

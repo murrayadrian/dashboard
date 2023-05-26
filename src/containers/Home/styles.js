@@ -9,9 +9,9 @@ export const SMain = styled.main`
 export const SMiddle = styled.div`
     display: flex;
     flex-direction: column;
-    width: calc(100% - 400px);
-    border:1px solid yellow;
-    padding:0 20px 0 20px;
+    width: 716px;
+    /* border:1px solid yellow; */
+    /* padding:0 20px 0 20px; */
 `
 export const SMenuWrapper = styled.div`
     display: flex;
@@ -37,25 +37,29 @@ export const SItem = styled.div`
 export const SRight = styled.div`
     display: flex;
     flex-direction: column;
-    width: 400px;
-    border:1px solid red;
+    width: 348px;
 `
 export const SContainer = styled.div`
     background-color: #FFFFFF;
     padding-left: ${v.mdSpacing};
     padding-right: ${v.mdSpacing};
     margin-top: ${v.lgSpacing};
+    width: 100%;
+    height: 478px;
 `
 export const SCardList =styled.div`
-    width: 370px;
+    width: 100%;
+    /* height: 354px; */
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
 `
 
 export const SCardItems= styled.div`
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: space-between;
 `
 
 export const SUserList = styled.div`
