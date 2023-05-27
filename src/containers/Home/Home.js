@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <Container>
       <MidSection/>      
-      <Container w='348px' t='column' justify='space-between'>
+      <Container w='350px' t='column' justify='space-between'>
         <CardContainer gap={v.mdGap}>
           <Card title="Revenue" amount={5.00} currency="eth" percent={12.3}></Card>
           <Card title="Spending" amount={2.00} currency="eth" percent={8.1}></Card>
