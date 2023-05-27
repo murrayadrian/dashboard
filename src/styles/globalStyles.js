@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
         width: 1456px;
         margin:0 auto;
     }
-     #root{
+    #root{
         background: ${({theme}) => theme.bg4};
         color: ${({theme}) => theme.text};
         font-family: 'Roboto', sans-serif;

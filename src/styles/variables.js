@@ -1,6 +1,14 @@
 
 export const v = {
     sidebarWidth : `292px`,
+    sidebarHeight: `1024px`,
+    middleWidth : `671px`,
+    rightbarWidth : `348px`,
+    mdGap: `20px`,
+    lgGap: `30px`,
+    headerMarginBottom: `40px`,
+    middleMarginLeft: `32px`,
+    leaderBoardHeight: `478px`,
     smSpacing : `8px`,
     mdSpacing : `16px`,
     lgSpacing : `24px`,
@@ -31,6 +39,5 @@ export const v = {
         normal: 500,
         bold: 700
     }
-   
 }
 

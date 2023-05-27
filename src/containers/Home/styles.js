@@ -47,8 +47,6 @@ export const SContainer = styled.div`
     border-radius: 16px;
 `
 export const SCardList =styled.div`
-    width: 100%;
-    /* height: 354px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
