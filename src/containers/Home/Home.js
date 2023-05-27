@@ -6,37 +6,21 @@ import CardData from '../../components/Card/CardData'
 import monkey from '../../assets/monkey.jpg'
 import avatar from '../../assets/smavatar.jpg'
 import User from '../../components/User/User'
-import { Container } from '../../components/Container';
+import { Container, CardContainer } from '../../components/Container';
+import { v } from '../../styles/variables'
+import { MidSection } from '../../components/MidSection/MidSection'
 
 const Home = () => {
   return (
     <Container>
-      <SMiddle>
-        <SlideShow></SlideShow>
-        <SMenuWrapper>
-          <STitle>Trending Auctions</STitle>
-          <SMenu>
-            <SItem>Art</SItem>
-            <SItem>Music</SItem>
-            <SItem>Collectibles</SItem>
-            <SItem>Utility</SItem>
-          </SMenu>
-        </SMenuWrapper>
-        <SCardItems>
-          <CardData img={monkey} width='28px' height='28px'time='12:03:45'title='Ape In Love' likes='21.5k' avatar={avatar}username='johnti60'amount={9.10}/>
-          <CardData img={monkey} width='28px' height='28px'time='12:03:45'title='Ape In Love' likes='21.5k' avatar={avatar}username='johnti60'amount={9.10}/>
-          <CardData img={monkey} width='28px' height='28px'time='12:03:45'title='Ape In Love' likes='21.5k' avatar={avatar}username='johnti60'amount={9.10}/>
-          <CardData img={monkey} width='28px' height='28px'time='12:03:45'title='Ape In Love' likes='21.5k' avatar={avatar}username='johnti60'amount={9.10}/>
-        </SCardItems>
-      </SMiddle>
-
-      <SRight>
-        <SCardList>
+      <MidSection/>      
+      <Container w='348px' t='column' justify='space-between'>
+        <CardContainer gap={v.mdGap}>
           <Card title="Revenue" amount={5.00} currency="eth" percent={12.3}></Card>
           <Card title="Spending" amount={2.00} currency="eth" percent={8.1}></Card>
           <Card title="ROI" amount={14.02} currency="%" percent={-5.1}></Card>
           <Card title="Estimated" amount={7.00} currency="eth" percent={3.2}></Card>
-        </SCardList>
+        </CardContainer>
 
         <SContainer>
           <SMenuWrapper>
@@ -53,7 +37,7 @@ const Home = () => {
           </SUserList>
         </SContainer>
 
-      </SRight>
+      </Container>
     </Container>
   )
 }

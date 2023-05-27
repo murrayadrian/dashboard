@@ -1,3 +1,4 @@
 import { Container } from "./Container";
+import { CardContainer } from "./Container";
 
-export {Container}
+export {Container, CardContainer}

@@ -2,7 +2,7 @@
 export const v = {
     sidebarWidth : `292px`,
     sidebarHeight: `1024px`,
-    middleWidth : `671px`,
+    middleWidth : `716px`,
     rightbarWidth : `348px`,
     mdGap: `20px`,
     lgGap: `30px`,
