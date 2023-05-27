@@ -6,10 +6,11 @@ import CardData from '../../components/Card/CardData'
 import monkey from '../../assets/monkey.jpg'
 import avatar from '../../assets/smavatar.jpg'
 import User from '../../components/User/User'
+import { Container } from '../../components/Container';
 
 const Home = () => {
   return (
-    <SMain>
+    <Container>
       <SMiddle>
         <SlideShow></SlideShow>
         <SMenuWrapper>
@@ -53,7 +54,7 @@ const Home = () => {
         </SContainer>
 
       </SRight>
-    </SMain>
+    </Container>
   )
 }
 
