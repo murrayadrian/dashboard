@@ -1,26 +1,18 @@
 import React from 'react'
 import {Route, Routes} from 'react-router-dom';
 import Home from './containers/Home/Home'
-import About from './containers/About'
+import About from './containers/About/About'
 import Login from './containers/Login'
 import NotFoundPage from './containers/NotFoundPage'
-const Routes = () => {
+const Routing = () => {
   return (
     <Routes>
-        <Route exact path = '/'>
-          <Home/>
-        </Route>
-        <Route exact path = '/about'>
-          <About/>
-        </Route>
-        <Route exact path = '/login'>
-          <Login/>
-        </Route>
-        <Route exact path = '*'>
-          <NotFoundPage/>
-        </Route>
+        <Route path = '/' element={<Home/>}/>
+        <Route path = '/about' element={<About/>}/>
+        <Route path = '/login' element={<Login/>}/>
+        <Route path = '*' element={<NotFoundPage/>}/>
     </Routes>
   )
 }
 
-export default Routes
+export default Routing

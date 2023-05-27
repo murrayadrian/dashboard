@@ -4,7 +4,7 @@ import { darkTheme, lightTheme } from './styles/theme'
 import { GlobalStyle } from './styles/globalStyles'
 import { Helmet } from 'react-helmet'
 import Layout from './components/Layout/Layout'
-import Routes from './Routes'
+import Routing from './Routes'
 
 export const ThemeContext = React.createContext(null)
 
@@ -24,7 +24,7 @@ const App = () => {
             </Helmet>
             <>
                 <Layout>
-                    <Routes/>
+                    <Routing/>
                 </Layout>
             </>
         </ThemeProvider>

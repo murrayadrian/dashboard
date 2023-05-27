@@ -7,24 +7,31 @@ export const SSlideShow = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-    width: calc(100% - 100px);
+    width: 100%;
     height: 354px;
     position: relative;
-    margin-top: 10px;
 `
 export const Container = styled.div`
   position: absolute;
-  top: 100px;
-  left: 40px;
+  top: 77px;
+  right: 120px;
+  bottom: 77px;
+  left: 60px;
+  width: 536px;
+  height: 130px;
 `
 
 export const SContent = styled.div`
     font-size: 54px;
     font-weight: 700;
     color: #FFFFFF;
+    line-height: 65px;
+    letter-spacing: -0.02em;  
+    margin-bottom: 24px;
 `
 
 export const SBtnList = styled.div`
     display: flex;
     justify-content: flex-start;
+    gap: 10px;
 `

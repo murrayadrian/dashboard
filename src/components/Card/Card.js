@@ -10,9 +10,9 @@ const SCard = styled.div`
     border-radius: 12px;
     font-size: 12px;
     line-height: 16px;
-    height: 100px;
-    width : 100px;
-    margin: 10px;
+    height: 167px;
+    width : 164px;
+
 `
 const Card = ({title, amount, currency, percent}) => {
   return (
@@ -27,7 +27,7 @@ const Card = ({title, amount, currency, percent}) => {
                 <span className="amount">+{amount}{currency}</span>
             </div>
         }
-        <Button percent={percent}>{percent}%</Button>
+        <Button percent={percent} w='115px' bd='#E9E9E9' br='12px'>{percent}%</Button>
     </SCard>
   )
 }

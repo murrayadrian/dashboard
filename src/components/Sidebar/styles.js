@@ -4,17 +4,19 @@ import { v } from "../../styles/variables";
 export const SSidebar = styled.div`
     width: ${v.sidebarWidth};
     background: ${({theme}) => theme.bg};
-    height: 100%;
-    padding: ${v.lgSpacing};
+    height: 1024px;
+    padding: 32px 94px 32px 32px;
     position: relative;
 `
 
 export const SLogo = styled.div`
-    width: 200px;
+    width: 166px;
+    height: 56px;
+    gap: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    /* margin: 10px; */
     img {
         max-width: 100%;
         height: auto;

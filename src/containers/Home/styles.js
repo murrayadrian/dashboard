@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { v } from "../../styles/variables";
 
 export const SMain = styled.main`
     display: flex;
@@ -9,18 +9,62 @@ export const SMain = styled.main`
 export const SMiddle = styled.div`
     display: flex;
     flex-direction: column;
-    width: calc(100% - 400px);
-    border:1px solid black;
+    width: 716px;
+    /* border:1px solid yellow; */
+    /* padding:0 20px 0 20px; */
 `
-
+export const SMenuWrapper = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: ${v.lgSpacing}
+`
+export const STitle = styled.div`
+    font-size: 20px;
+    font-weight: 700;
+`
+export const SMenu = styled.div`
+    display: flex;
+    justify-content: center;
+`
+export const SItem = styled.div`
+    margin-right: 20px;
+    :nth-last-child(1) {
+        margin-right: 0;
+    }
+`
 export const SRight = styled.div`
     display: flex;
     flex-direction: column;
-    width: 400px;
-    border:1px solid red;
+    width: 348px;
+`
+export const SContainer = styled.div`
+    background-color: #FFFFFF;
+    padding-left: ${v.mdSpacing};
+    padding-right: ${v.mdSpacing};
+    margin-top: ${v.lgSpacing};
+    width: 100%;
+    height: 478px;
+    border-radius: 16px;
 `
 export const SCardList =styled.div`
-    width: 370px;
+    width: 100%;
+    /* height: 354px; */
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+`
+
+export const SCardItems= styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+`
+
+export const SUserList = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `

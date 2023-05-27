@@ -7,15 +7,13 @@ export const SHeader = styled.header`
     margin-bottom: 40px;
 `
 export const SSearch = styled.div`
-    /* background: ${({theme}) => theme.bg5}; */
-    /* border: 1px solid ${({theme}) => theme.bg3}; */
 
     input {
         padding: 0 ${v.smSpacing};
         font-size: 16px;
         width: 461px;
         height: 56px;
-        border-radius: ${v.lgSpacing};
+        border-radius: 35px;
         border: none;
     }
     position:relative;
@@ -46,4 +44,5 @@ export const SPlaceholder = styled.div`
 
 export const SUser = styled.div`
     display: flex;
+    gap: 30px;
 `

@@ -5,7 +5,7 @@ const SCircle = styled.div`
     height: ${props => props.height || '44px'};
     border-radius: 50%;
     position: relative;
-    margin-right:40px;
+    margin-right:${props => props.margin || 'none'};;
     background : ${props => props.background || 'none'};
     img {
         position: absolute;
@@ -14,9 +14,9 @@ const SCircle = styled.div`
         transform: translateX(-50%) translateY(-50%);
     }
 `
-const CircleImage = ({width, height, image, background}) => {
+const CircleImage = ({width, height, image, background, margin}) => {
   return (
-    <SCircle width = {width} height = {height} background={background}>
+    <SCircle width = {width} height = {height} background={background} margin={margin}>
         <img src={image} alt="img"/>
     </SCircle>
   )
