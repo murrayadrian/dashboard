@@ -1,9 +1,7 @@
 import React from 'react'
-import { SCardItems, SCardList, SContainer, SItem, SMain, SMenu, SMenuWrapper, SMiddle, SRight, STitle, SUserList } from './styles'
+import { SContainer, SMenuWrapper, STitle, SUserList } from './styles'
 import Card from '../../components/Card/Card'
-import SlideShow from '../../components/SlideShow/SlideShow'
-import CardData from '../../components/Card/CardData'
-import monkey from '../../assets/monkey.jpg'
+
 import avatar from '../../assets/smavatar.jpg'
 import User from '../../components/User/User'
 import { Container, CardContainer } from '../../components/Container';
