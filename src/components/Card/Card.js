@@ -7,11 +7,11 @@ import Button from '../Button/Button'
 const SCard = styled.div`
     padding: 24px;
     background: #FFFFFF;
-    border-radius: 20px;
+    border-radius: 12px;
     font-size: 12px;
     line-height: 16px;
-    height: 165px;
-    width : 165px;
+    height: 100px;
+    width : 100px;
     margin: 10px;
 `
 const Card = ({title, amount, currency, percent}) => {
