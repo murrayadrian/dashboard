@@ -18,15 +18,11 @@ const Card = ({title, amount, currency, percent}) => {
   return (
     <SCard>
         <div className="title">{title}</div>
-        {currency !== '%' ?
             <div className="amount-wrapper">
-                <img src={ethicon} alt="img" className="eth"/>
+            {(currency !== '%') && <img src={ethicon} alt="img" className="eth"/>}
                 <span className="amount">{amount}{currency}</span>
-            </div> :
-            <div className="amount-wrapper">
-                <span className="amount">+{amount}{currency}</span>
             </div>
-        }
+        
         <Button percent={percent} w='115px' bd='#E9E9E9' br='12px'>{percent}%</Button>
     </SCard>
   )

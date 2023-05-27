@@ -10,8 +10,6 @@ export const SMiddle = styled.div`
     display: flex;
     flex-direction: column;
     width: 716px;
-    /* border:1px solid yellow; */
-    /* padding:0 20px 0 20px; */
 `
 export const SMenuWrapper = styled.div`
     display: flex;
