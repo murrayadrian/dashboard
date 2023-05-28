@@ -38,6 +38,13 @@ export const v = {
     fontWeight:{
         normal: 500,
         bold: 700
+    },
+    fontSize:{
+        sm: `12px`,
+        md: `14px`,
+        lg: `16px`,
+        xl: `24px`,
+        xxl: `54px`
     }
 }
 

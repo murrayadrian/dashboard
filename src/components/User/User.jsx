@@ -18,9 +18,8 @@ const SUser = styled.div`
     }
 `
 const SInfo = styled.div`
-  
 `
-const User = ({id, width, height, image, fullname, username}) => {
+export const User = ({id, width, height, image, fullname, username}) => {
   return (
     <SUser>
         <div>{id}.</div>
@@ -34,4 +33,3 @@ const User = ({id, width, height, image, fullname, username}) => {
   )
 }
 
-export default User

@@ -25,6 +25,7 @@ export const SMenuWrapper = styled.div`
 export const STitle = styled.div`
     font-size: 20px;
     font-weight: 700;
+    //ok
 `
 export const SMenu = styled.div`
     display: flex;
@@ -51,6 +52,7 @@ export const SContainer = styled.div`
     width: 100%;
     height: 478px;
     border-radius: 16px;
+    //ok
 `
 export const SCardList =styled.div`
     display: flex;

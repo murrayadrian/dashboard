@@ -3,19 +3,17 @@ import styled from 'styled-components';
 const SContainer = styled.div`
   display: flex;
   flex-direction: ${props=>props.t || 'row'};
-  justify-content: ${props=>props.t || 'space-between'};
+  justify-content: ${props=>props.justify || 'space-between'};
   width: ${props=>props.w};
+  height: ${props=>props.h};
   gap: ${props=>props.gap};
-  margin-bottom: ${props=>props.mBottom};
-  margin-top: ${props=>props.mTop};
 `
 export const CardContainer = styled(SContainer)`
   flex-wrap: wrap;
 `
-
-export const Container = ({w, gap, t, mBottom, mTop,justify, children}) => {
+export const Container = ({w, h, t, gap, justify, children, ...rest}) => {
     return (
-        <SContainer w={w} gap={gap} t={t} mBottom={mBottom} mTop={mTop} justify={justify}>
+        <SContainer w={w} h={h} t={t} gap={gap} justify={justify} {...rest}>
           {children}
         </SContainer>
     )
