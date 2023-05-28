@@ -4,7 +4,7 @@ export const v = {
     sidebarHeight: `1024px`,
     middleWidth : `716px`,
     rightbarWidth : `348px`,
-    mdGap: `20px`,
+    mdGap: `21px`,
     lgGap: `30px`,
     headerMarginBottom: `40px`,
     middleMarginLeft: `32px`,
