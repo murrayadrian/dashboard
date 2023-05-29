@@ -26,9 +26,11 @@ export const v = {
         backgroundColor: 'linear-gradient(90deg, #FFFFFF 0%, #BBAAFF 66.67%)',
         form:{
             width: '806px',
+            padding: '225px 88px 0px 238px',
         },
         img:{
             width: '600px',
+            height: '600px'
         }
     },
     color:{
