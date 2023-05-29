@@ -3,8 +3,7 @@ import { ThemeProvider } from 'styled-components'
 import { darkTheme, lightTheme } from './styles/theme'
 import { GlobalStyle } from './styles/globalStyles'
 import { Helmet } from 'react-helmet'
-import Layout from './components/Layout/Layout'
-import Routing from './Routes'
+import Routing from './Routing'
 
 export const ThemeContext = React.createContext(null)
 
