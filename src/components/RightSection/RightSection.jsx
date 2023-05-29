@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { v } from '../../styles/variables'
 import Card from '../Card/Card'
-import { CardContainer, Container } from '../Container'
+import { Container } from '../Container'
 import { LeaderBoard } from '../LearderBoard'
 
 const CardWrapper = styled(Container)`

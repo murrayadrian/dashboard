@@ -38,16 +38,16 @@ const SlideBtn1 = styled.button`
 `
 const SlideBtn2 = styled.button`
   ${base};
-  width:100px
+  width:100px;
   color: ${v.color.primary};
   border:1px solid ${v.color.primary};
   background: transparent;
 `
 const PlaceBtn = styled(SlideBtn1)`
-  width:144px
+  width:144px;
 `
 const LogicBtn = styled.button`
-  ${base}
+  ${base};
   width: 115px;
   color: ${v.color.text3};
   border: 1px solid #E9E9E9;

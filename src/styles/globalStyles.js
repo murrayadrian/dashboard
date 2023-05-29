@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
         margin:0 auto;
     }
     #root{
-        background: ${({theme}) => theme.bg4};
+        /* background: ${({theme}) => theme.bg4}; */
         color: ${({theme}) => theme.text};
         font-family: 'Roboto', sans-serif;
         letter-spacing: .6px;

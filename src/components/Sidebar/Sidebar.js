@@ -1,6 +1,5 @@
 import React from 'react'
-import { SLogo, SSidebar } from './styles'
-import { logoSVG } from '../../assets'
+import { SSidebar } from './styles'
 import img1 from '../../assets/img1.svg'
 import img2 from '../../assets/img2.svg'
 import img3 from '../../assets/img3.svg'
@@ -11,17 +10,12 @@ import img7 from '../../assets/img7.svg'
 import img8 from '../../assets/img8.svg'
 import img9 from '../../assets/img9.svg'
 import NavItem from '../NavItem/NavItem'
+import { Logo } from '../Logo/Logo'
 
 const Sidebar = () => {
   return (
     <SSidebar>
-      <SLogo>
-        <img src={logoSVG} alt="logo"/>
-        <div style={{margin:"10px"}}>
-            <div className="logo-text">MyNFT</div>
-            <div className="logo-desc">NFT Marketplace</div>
-          </div>
-      </SLogo>
+      <Logo/>
       <div className="nav">
           <NavItem text="Home" path="/" image={img1}></NavItem>
           <NavItem text="About" path="/about" image={img2}></NavItem>

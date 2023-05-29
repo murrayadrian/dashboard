@@ -4,7 +4,7 @@ export const v = {
     sidebarHeight: `1024px`,
     middleWidth : `716px`,
     rightbarWidth : `348px`,
-    mdGap: `21px`,
+    mdGap: `20px`,
     lgGap: `30px`,
     headerMarginBottom: `40px`,
     middleMarginLeft: `32px`,
@@ -20,6 +20,17 @@ export const v = {
     lgRadius : `30px`,
     xlRadius : `40px`,
 
+    loginPage:{
+        width: '1920px',
+        height: '600px',
+        backgroundColor: 'linear-gradient(90deg, #FFFFFF 0%, #BBAAFF 66.67%)',
+        form:{
+            width: '806px',
+        },
+        img:{
+            width: '600px',
+        }
+    },
     color:{
         primary: `#FFFFFF`,
         secondary: `#5429FF`,
